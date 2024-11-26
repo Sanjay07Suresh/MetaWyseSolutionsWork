@@ -1,0 +1,134 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"29 C:\Users\sanja\MPLABXProjects\5adc1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"45
+[v _cmd cmd `(v  1 e 1 0 ]
+"54
+[v _dat dat `(v  1 e 1 0 ]
+"62
+[v _show show `(v  1 e 1 0 ]
+"68
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"79
+[v _adc_init adc_init `(v  1 e 1 0 ]
+"85
+[v _adc adc `(v  1 e 1 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S54 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1454
+[u S63 . 1 `S54 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES63  1 e 1 @135 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2582
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2708
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2714
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"29 C:\Users\sanja\MPLABXProjects\5adc1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"43
+} 0
+"62
+[v _show show `(v  1 e 1 0 ]
+{
+[v show@s s `*.24uc  1 p 1 3 ]
+"66
+} 0
+"68
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"77
+} 0
+"45
+[v _cmd cmd `(v  1 e 1 0 ]
+{
+[v cmd@a a `uc  1 p 1 wreg ]
+[v cmd@a a `uc  1 p 1 wreg ]
+[v cmd@a a `uc  1 p 1 2 ]
+"51
+} 0
+"79
+[v _adc_init adc_init `(v  1 e 1 0 ]
+{
+"83
+} 0
+"85
+[v _adc adc `(v  1 e 1 0 ]
+{
+[v adc@ch ch `uc  1 p 1 wreg ]
+"86
+[v adc@adcvalue adcvalue `ui  1 a 2 1 ]
+"85
+[v adc@ch ch `uc  1 p 1 wreg ]
+"87
+[v adc@ch ch `uc  1 p 1 0 ]
+"101
+} 0
+"54
+[v _dat dat `(v  1 e 1 0 ]
+{
+[v dat@b b `uc  1 p 1 wreg ]
+[v dat@b b `uc  1 p 1 wreg ]
+[v dat@b b `uc  1 p 1 2 ]
+"60
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 7 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 9 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0

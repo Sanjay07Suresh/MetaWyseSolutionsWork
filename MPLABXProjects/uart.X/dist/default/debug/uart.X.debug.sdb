@@ -1,0 +1,74 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"19 C:\Users\sanja\MPLABXProjects\uart.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"30
+[v _ser_int ser_int `(v  1 e 1 0 ]
+"37
+[v _tx tx `(v  1 e 1 0 ]
+"43
+[v _rx rx `(uc  1 e 1 0 ]
+"49
+[v _txstr txstr `(v  1 e 1 0 ]
+"1059 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1066
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+[s S22 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1454
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES31  1 e 1 @135 ]
+"2080
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2747
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"3041
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"19 C:\Users\sanja\MPLABXProjects\uart.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"28
+} 0
+"49
+[v _txstr txstr `(v  1 e 1 0 ]
+{
+[v txstr@a a `*.24uc  1 p 1 1 ]
+"53
+} 0
+"37
+[v _tx tx `(v  1 e 1 0 ]
+{
+[v tx@a a `uc  1 p 1 wreg ]
+[v tx@a a `uc  1 p 1 wreg ]
+[v tx@a a `uc  1 p 1 0 ]
+"41
+} 0
+"30
+[v _ser_int ser_int `(v  1 e 1 0 ]
+{
+"35
+} 0
+"43
+[v _rx rx `(uc  1 e 1 0 ]
+{
+"47
+} 0
